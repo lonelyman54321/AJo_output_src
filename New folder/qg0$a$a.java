@@ -1,0 +1,77 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  android.util.Log
+ *  android.view.View
+ *  android.view.ViewGroup$LayoutParams
+ *  android.view.ViewTreeObserver$OnPreDrawListener
+ */
+import android.util.Log;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewTreeObserver;
+import java.lang.ref.WeakReference;
+import java.util.ArrayList;
+
+public final class qg0$a$a
+implements ViewTreeObserver.OnPreDrawListener {
+    public final WeakReference a;
+
+    public qg0$a$a(qg0$a a2) {
+        WeakReference<qg0$a> weakReference;
+        this.a = weakReference = new WeakReference<qg0$a>(a2);
+    }
+
+    public final boolean onPreDraw() {
+        ArrayList arrayList;
+        boolean bl2;
+        int n3 = 2;
+        Log.isLoggable((String)"CustomViewTarget", (int)n3);
+        qg0$a qg0$a = (qg0$a)this.a.get();
+        if (qg0$a != null && !(bl2 = (arrayList = qg0$a.b).isEmpty())) {
+            View view = qg0$a.a;
+            int n4 = view.getPaddingLeft();
+            int n7 = view.getPaddingRight() + n4;
+            Object object = view.getLayoutParams();
+            int n8 = 0;
+            Object object2 = null;
+            if (object != null) {
+                n4 = object.width;
+            } else {
+                n4 = 0;
+                object = null;
+            }
+            int n10 = view.getWidth();
+            n4 = qg0$a.a(n10, n4, n7);
+            n7 = view.getPaddingTop();
+            n10 = view.getPaddingBottom() + n7;
+            ViewGroup.LayoutParams layoutParams = view.getLayoutParams();
+            if (layoutParams != null) {
+                n8 = layoutParams.height;
+            }
+            n7 = view.getHeight();
+            n7 = qg0$a.a(n7, n8, n10);
+            n8 = -1 << -1;
+            if (!(n4 <= 0 && n4 != n8 || n7 <= 0 && n7 != n8)) {
+                object2 = new ArrayList(arrayList);
+                object2 = ((ArrayList)object2).iterator();
+                while ((n10 = (int)(object2.hasNext() ? 1 : 0)) != 0) {
+                    K63 k63 = (K63)object2.next();
+                    k63.b(n4, n7);
+                }
+                n4 = (int)((view = view.getViewTreeObserver()).isAlive() ? 1 : 0);
+                if (n4 != 0) {
+                    object = qg0$a.c;
+                    view.removeOnPreDrawListener((ViewTreeObserver.OnPreDrawListener)object);
+                }
+                bl2 = false;
+                view = null;
+                qg0$a.c = null;
+                arrayList.clear();
+            }
+        }
+        return true;
+    }
+}
+

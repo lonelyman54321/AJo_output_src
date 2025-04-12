@@ -1,0 +1,55 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  org.json.JSONObject
+ */
+package com.affise.attribution.events.subscription;
+
+import com.affise.attribution.events.subscription.BaseSubscriptionEvent;
+import com.affise.attribution.events.subscription.SubscriptionEventName;
+import com.affise.attribution.events.subscription.SubscriptionSubType;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import org.json.JSONObject;
+
+public final class ConvertedTrialEvent
+extends BaseSubscriptionEvent {
+    private final String subtype;
+    private final String type;
+
+    public ConvertedTrialEvent() {
+        this(null, null, 3, null);
+    }
+
+    public ConvertedTrialEvent(JSONObject jSONObject) {
+        this(jSONObject, null, 2, null);
+    }
+
+    public ConvertedTrialEvent(JSONObject object, String string2) {
+        super((JSONObject)object, string2);
+        object = SubscriptionEventName.AFFISE_SUBSCRIPTION_FIRST_CONVERSION.getEventName();
+        this.type = object;
+        object = SubscriptionSubType.AFFISE_SUB_CONVERTED_TRIAL.getTypeName();
+        this.subtype = object;
+    }
+
+    public /* synthetic */ ConvertedTrialEvent(JSONObject jSONObject, String string2, int n3, DefaultConstructorMarker defaultConstructorMarker) {
+        int n4 = n3 & 1;
+        if (n4 != 0) {
+            jSONObject = null;
+        }
+        if ((n3 &= 2) != 0) {
+            string2 = null;
+        }
+        this(jSONObject, string2);
+    }
+
+    public String getSubtype() {
+        return this.subtype;
+    }
+
+    public String getType() {
+        return this.type;
+    }
+}
+

@@ -1,0 +1,9 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package androidx.media3.ui;
+
+public interface PlayerControlView$l {
+    public void E(int var1);
+}
+

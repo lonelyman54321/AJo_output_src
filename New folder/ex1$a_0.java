@@ -1,0 +1,47 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+import androidx.lifecycle.LiveData;
+import com.ril.ajio.data.repo.ApiErrorRepo;
+import kotlin.Unit;
+
+/*
+ * Renamed from EX1$a
+ */
+public final class ex1$a_0
+extends qg3_2
+implements gx0_2 {
+    public /* synthetic */ Throwable a;
+    public final /* synthetic */ wx1_1 b;
+    public final /* synthetic */ String c;
+
+    public ex1$a_0(wx1_1 wx1_12, f80_0 f80_02) {
+        this.b = wx1_12;
+        this.c = "bag screen";
+        super(3, f80_02);
+    }
+
+    public final Object invoke(Object object, Object object2, Object object3) {
+        object = (fs0_2)object;
+        object2 = (Throwable)object2;
+        object3 = (f80_0)object3;
+        wx1_1 wx1_12 = this.b;
+        object = new ex1$a_0(wx1_12, (f80_0)object3);
+        ((ex1$a_0)object).a = object2;
+        object2 = Unit.a;
+        return ((ex1$a_0)object).invokeSuspend(object2);
+    }
+
+    public final Object invokeSuspend(Object object) {
+        Object object2 = j90_0.COROUTINE_SUSPENDED;
+        vl2_2.b(object);
+        Throwable throwable = this.a;
+        object = this.b.J0;
+        ApiErrorRepo apiErrorRepo = ApiErrorRepo.INSTANCE;
+        String string2 = this.c;
+        object2 = apiErrorRepo.handleApiException(throwable, "CartBulkMoveToWishList", true, string2, "Forward");
+        ((LiveData)object).k(object2);
+        return Unit.a;
+    }
+}
+

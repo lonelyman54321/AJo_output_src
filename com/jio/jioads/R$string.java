@@ -1,0 +1,88 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package com.jio.jioads;
+
+public final class R$string {
+    public static int _00_00 = 2131951622;
+    public static int ad_text_with_colon = 2131951915;
+    public static int ad_text_without_colon = 2131951916;
+    public static int app_name = 2131952066;
+    public static int close_ad = 2131952400;
+    public static int cta_know_more = 2131952598;
+    public static int jio_ad_params_container = 2131953156;
+    public static int jio_ad_params_dynamic_cta_container = 2131953157;
+    public static int jio_advertisment_text = 2131953158;
+    public static int jio_carousel_ad = 2131953159;
+    public static int jio_default_cta_container = 2131953160;
+    public static int jio_discount = 2131953161;
+    public static int jio_exoplayer = 2131953162;
+    public static int jio_interstitial_close_ad = 2131953163;
+    public static int jio_interstitial_cta_btn = 2131953164;
+    public static int jio_interstitial_cta_focused_btn = 2131953165;
+    public static int jio_interstitial_html = 2131953166;
+    public static int jio_native_ad_click_text = 2131953168;
+    public static int jio_native_adchoice_layout = 2131953169;
+    public static int jio_native_address = 2131953170;
+    public static int jio_native_adsource = 2131953171;
+    public static int jio_native_advertiser_name = 2131953172;
+    public static int jio_native_carousel_description = 2131953173;
+    public static int jio_native_carousel_image = 2131953174;
+    public static int jio_native_carousel_title = 2131953175;
+    public static int jio_native_cta = 2131953176;
+    public static int jio_native_cta_text = 2131953177;
+    public static int jio_native_custom_image_layout = 2131953178;
+    public static int jio_native_description = 2131953179;
+    public static int jio_native_description2 = 2131953180;
+    public static int jio_native_display_url = 2131953181;
+    public static int jio_native_downloads = 2131953182;
+    public static int jio_native_icon_layout = 2131953183;
+    public static int jio_native_likes = 2131953184;
+    public static int jio_native_media_layout = 2131953185;
+    public static int jio_native_phone = 2131953186;
+    public static int jio_native_price = 2131953187;
+    public static int jio_native_rating = 2131953188;
+    public static int jio_native_sale_price = 2131953189;
+    public static int jio_native_skip_element = 2131953190;
+    public static int jio_native_skip_element_focused = 2131953191;
+    public static int jio_native_tagline = 2131953192;
+    public static int jio_native_title = 2131953193;
+    public static int jio_native_video_play_again = 2131953194;
+    public static int jio_reward_timer = 2131953195;
+    public static int jio_sponsored = 2131953196;
+    public static int jio_video_ad_counter = 2131953197;
+    public static int jio_video_ad_icon = 2131953198;
+    public static int jio_video_audio_level_icon = 2131953199;
+    public static int jio_video_cta = 2131953200;
+    public static int jio_video_cta_btn_focused = 2131953201;
+    public static int jio_video_desc = 2131953202;
+    public static int jio_video_loader = 2131953203;
+    public static int jio_video_playback_icon = 2131953204;
+    public static int jio_video_player_container = 2131953205;
+    public static int jio_video_progressbar = 2131953206;
+    public static int jio_video_progresscount = 2131953207;
+    public static int jio_video_progresscount_down = 2131953208;
+    public static int jio_video_progresscount_total_duration = 2131953209;
+    public static int jio_video_progresscount_up = 2131953210;
+    public static int jio_video_resize_icon = 2131953211;
+    public static int jio_video_secondary_cta = 2131953212;
+    public static int jio_video_skip_element = 2131953213;
+    public static int jio_video_skip_element_focused = 2131953214;
+    public static int jio_video_thumbnail = 2131953215;
+    public static int jio_video_thumbnail_skip_element = 2131953216;
+    public static int jio_video_title = 2131953217;
+    public static int jio_video_volume_icon = 2131953218;
+    public static int jio_xray_icon = 2131953219;
+    public static int playpause = 2131953942;
+    public static int recoverbanner = 2131954097;
+    public static int reward_granted = 2131954294;
+    public static int reward_in_skip_counter = 2131954295;
+    public static int reward_in_skip_counter_stb = 2131954296;
+    public static int skip_ad = 2131954512;
+    public static int you_can_skip_ad_in_skip_counter = 2131954882;
+    public static int you_can_skip_ad_in_skip_counter_html = 2131954883;
+    public static int you_can_skip_ad_in_skip_counter_html_mobile = 2131954884;
+    public static int you_can_skip_ad_in_skip_counter_mobile = 2131954885;
+    public static int you_can_skip_ad_in_skip_counter_stb = 2131954886;
+}
+

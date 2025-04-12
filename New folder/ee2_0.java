@@ -1,0 +1,23 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+import kotlin.jvm.internal.Intrinsics;
+
+/*
+ * Renamed from Ee2
+ */
+public final class ee2_0
+implements Function1 {
+    public final Object invoke(Object object) {
+        object = (UY2)object;
+        Intrinsics.checkNotNullParameter(object, "$this$semantics");
+        Object object2 = RY2.a;
+        object2 = MY2.i;
+        Unit unit = Unit.a;
+        object.a((TY2)object2, unit);
+        return unit;
+    }
+}
+

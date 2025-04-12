@@ -1,0 +1,118 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+import androidx.compose.foundation.lazy.layout.b$a;
+import androidx.compose.foundation.lazy.layout.d;
+import androidx.compose.foundation.lazy.layout.g;
+import kotlin.jvm.internal.Intrinsics;
+
+public final class Ls1
+implements Ks1 {
+    public final ft1_2 a;
+    public final Is1 b;
+    public final xr1_2 c;
+    public final d d;
+
+    public Ls1(ft1_2 ft1_22, Is1 is1, xr1_2 xr1_22, g g3) {
+        this.a = ft1_22;
+        this.b = is1;
+        this.c = xr1_22;
+        this.d = g3;
+    }
+
+    public final d a() {
+        return this.d;
+    }
+
+    public final int b(Object object) {
+        return this.d.b(object);
+    }
+
+    public final Object c(int n3) {
+        Object object = this.d.c(n3);
+        if (object == null) {
+            object = this.b.f(n3);
+        }
+        return object;
+    }
+
+    public final void d(int n3, Object object, b30_0 object2, int n4) {
+        int n7;
+        object2 = object2.g(-462424778);
+        int n8 = n4 & 6;
+        if (n8 == 0) {
+            n8 = (int)(((j30_0)object2).c(n3) ? 1 : 0);
+            n8 = n8 != 0 ? 4 : 2;
+            n8 |= n4;
+        } else {
+            n8 = n4;
+        }
+        int n10 = n4 & 0x30;
+        if (n10 == 0) {
+            n10 = (int)(((j30_0)object2).x(object) ? 1 : 0);
+            n10 = n10 != 0 ? 32 : 16;
+            n8 |= n10;
+        }
+        if ((n10 = n4 & 0x180) == 0) {
+            n10 = (int)(((j30_0)object2).J(this) ? 1 : 0);
+            n10 = n10 != 0 ? 256 : 128;
+            n8 |= n10;
+        }
+        if ((n10 = n8 & 0x93) == (n7 = 146) && (n10 = (int)(((j30_0)object2).h() ? 1 : 0)) != 0) {
+            ((j30_0)object2).D();
+        } else {
+            ws1_0 ws1_02 = this.a.r;
+            Object object3 = new Ls1$a(this, n3);
+            u10 u102 = v10.c(-824725566, (fx0_2)object3, (b30_0)object2);
+            n10 = n8 >> 3 & 0xE | 0xC00;
+            n8 = n8 << 3 & 0x70;
+            int n14 = n10 | n8;
+            object3 = object;
+            n7 = n3;
+            vs1.b(object, n3, ws1_02, u102, (b30_0)object2, n14);
+        }
+        object2 = ((j30_0)object2).X();
+        if (object2 != null) {
+            Ls1$b ls1$b = new Ls1$b(this, n3, object, n4);
+            ((CF2)object2).d = ls1$b;
+        }
+    }
+
+    public final Object e(int n3) {
+        Object object = this.b.e().d(n3);
+        int n4 = ((Nj1)object).a;
+        object = ((b$a)((Nj1)object).c).getType();
+        Integer n7 = n3 -= n4;
+        return object.invoke(n7);
+    }
+
+    public final boolean equals(Object object) {
+        if (this == object) {
+            return true;
+        }
+        boolean bl2 = object instanceof Ls1;
+        if (!bl2) {
+            return false;
+        }
+        object = ((Ls1)object).b;
+        return Intrinsics.areEqual(this.b, object);
+    }
+
+    public final xr1_2 f() {
+        return this.c;
+    }
+
+    public final mz0_2 g() {
+        this.b.getClass();
+        return mz0_2.a;
+    }
+
+    public final int getItemCount() {
+        return this.b.e().b;
+    }
+
+    public final int hashCode() {
+        return this.b.hashCode();
+    }
+}
+

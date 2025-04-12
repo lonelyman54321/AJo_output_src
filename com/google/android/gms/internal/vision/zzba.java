@@ -1,0 +1,9 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package com.google.android.gms.internal.vision;
+
+public interface zzba {
+    public Object zza();
+}
+

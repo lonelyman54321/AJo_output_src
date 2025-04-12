@@ -1,0 +1,25 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package com.affise.attribution.modules.subscription;
+
+import kotlin.jvm.internal.Intrinsics;
+
+public final class AffiseSubscriptionError$PurchaseFailed
+extends Exception {
+    private final Object error;
+
+    public AffiseSubscriptionError$PurchaseFailed(Object object) {
+        Intrinsics.checkNotNullParameter(object, "error");
+        CharSequence charSequence = new StringBuilder("purchase failed: ");
+        charSequence.append(object);
+        charSequence = charSequence.toString();
+        super((String)charSequence);
+        this.error = object;
+    }
+
+    public final Object getError() {
+        return this.error;
+    }
+}
+

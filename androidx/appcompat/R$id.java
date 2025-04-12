@@ -1,0 +1,86 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package androidx.appcompat;
+
+public final class R$id {
+    public static int action_bar = 2131361875;
+    public static int action_bar_activity_content = 2131361876;
+    public static int action_bar_container = 2131361877;
+    public static int action_bar_root = 2131361878;
+    public static int action_bar_spinner = 2131361879;
+    public static int action_bar_subtitle = 2131361880;
+    public static int action_bar_title = 2131361881;
+    public static int action_context_bar = 2131361884;
+    public static int action_menu_divider = 2131361887;
+    public static int action_menu_presenter = 2131361888;
+    public static int action_mode_bar = 2131361889;
+    public static int action_mode_bar_stub = 2131361890;
+    public static int action_mode_close_button = 2131361891;
+    public static int activity_chooser_view_content = 2131361898;
+    public static int add = 2131361910;
+    public static int alertTitle = 2131362009;
+    public static int buttonPanel = 2131362264;
+    public static int checkbox = 2131362528;
+    public static int checked = 2131362530;
+    public static int content = 2131362824;
+    public static int contentPanel = 2131362825;
+    public static int custom = 2131362971;
+    public static int customPanel = 2131362972;
+    public static int decor_content_parent = 2131363014;
+    public static int default_activity_button = 2131363016;
+    public static int edit_query = 2131363175;
+    public static int expand_activities_button = 2131363387;
+    public static int expanded_menu = 2131363396;
+    public static int group_divider = 2131363793;
+    public static int home = 2131363836;
+    public static int icon = 2131363881;
+    public static int image = 2131364012;
+    public static int listMode = 2131364509;
+    public static int list_item = 2131364511;
+    public static int message = 2131364862;
+    public static int multiply = 2131364927;
+    public static int none = 2131365031;
+    public static int normal = 2131365035;
+    public static int off = 2131365099;
+    public static int on = 2131365133;
+    public static int parentPanel = 2131365276;
+    public static int progress_circular = 2131365661;
+    public static int progress_horizontal = 2131365663;
+    public static int radio = 2131365707;
+    public static int screen = 2131366403;
+    public static int scrollIndicatorDown = 2131366407;
+    public static int scrollIndicatorUp = 2131366408;
+    public static int scrollView = 2131366410;
+    public static int search_badge = 2131366433;
+    public static int search_bar = 2131366434;
+    public static int search_button = 2131366440;
+    public static int search_close_btn = 2131366442;
+    public static int search_edit_frame = 2131366444;
+    public static int search_go_btn = 2131366445;
+    public static int search_mag_icon = 2131366452;
+    public static int search_plate = 2131366454;
+    public static int search_src_text = 2131366456;
+    public static int search_voice_btn = 2131366465;
+    public static int select_dialog_listview = 2131366477;
+    public static int shortcut = 2131366608;
+    public static int spacer = 2131366721;
+    public static int split_action_bar = 2131366733;
+    public static int src_atop = 2131366743;
+    public static int src_in = 2131366744;
+    public static int src_over = 2131366745;
+    public static int submenuarrow = 2131366854;
+    public static int submit_area = 2131366855;
+    public static int tabMode = 2131366882;
+    public static int textSpacerNoButtons = 2131366925;
+    public static int textSpacerNoTitle = 2131366926;
+    public static int title = 2131366973;
+    public static int titleDividerNoCustom = 2131366974;
+    public static int title_template = 2131366989;
+    public static int topPanel = 2131367030;
+    public static int unchecked = 2131367408;
+    public static int uniform = 2131367410;
+    public static int up = 2131367419;
+    public static int wrap_content = 2131367630;
+}
+

@@ -1,0 +1,32 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  android.view.View
+ */
+package androidx.compose.ui.viewinterop;
+
+import android.view.View;
+import androidx.compose.ui.viewinterop.ViewFactoryHolder;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.internal.Lambda;
+
+public final class ViewFactoryHolder$b
+extends Lambda
+implements Function0 {
+    public final /* synthetic */ ViewFactoryHolder c;
+
+    public ViewFactoryHolder$b(ViewFactoryHolder viewFactoryHolder) {
+        this.c = viewFactoryHolder;
+        super(0);
+    }
+
+    public final Object invoke() {
+        ViewFactoryHolder viewFactoryHolder = this.c;
+        View view = viewFactoryHolder.x;
+        viewFactoryHolder.getResetBlock().invoke(view);
+        return Unit.a;
+    }
+}
+

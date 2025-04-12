@@ -1,0 +1,15 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package com.ril.ajio.services.network.api;
+
+import java.util.HashMap;
+
+public interface CustomerReviewsApi {
+    public Object getReviews(String var1, String var2, HashMap var3, f80_0 var4);
+
+    public Object getReviewsWithImages(String var1, String var2, HashMap var3, f80_0 var4);
+
+    public Object updateLikesReviews(String var1, String var2, String var3, String var4, Integer var5, f80_0 var6);
+}
+

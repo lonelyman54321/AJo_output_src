@@ -1,0 +1,43 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package com.google.android.gms.internal.ads;
+
+import com.google.android.gms.internal.ads.zzadu;
+import com.google.android.gms.internal.ads.zzadv;
+import com.google.android.gms.internal.ads.zzadx;
+import com.google.android.gms.internal.ads.zzaeq;
+import com.google.android.gms.internal.ads.zzaev;
+import com.google.android.gms.internal.ads.zzgbc;
+import java.util.List;
+
+public final class zzall
+implements zzadu {
+    private final zzaev zza;
+
+    public zzall() {
+        zzaev zzaev2;
+        this.zza = zzaev2 = new zzaev(35152, 2, "image/png");
+    }
+
+    public final int zzb(zzadv zzadv2, zzaeq zzaeq2) {
+        return this.zza.zzb(zzadv2, zzaeq2);
+    }
+
+    public final /* synthetic */ List zzc() {
+        return zzgbc.zzm();
+    }
+
+    public final void zzd(zzadx zzadx2) {
+        this.zza.zzd(zzadx2);
+    }
+
+    public final void zze(long l2, long l3) {
+        this.zza.zze(l2, l3);
+    }
+
+    public final boolean zzf(zzadv zzadv2) {
+        return this.zza.zzf(zzadv2);
+    }
+}
+

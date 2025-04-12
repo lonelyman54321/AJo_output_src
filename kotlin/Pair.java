@@ -1,0 +1,71 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package kotlin;
+
+import java.io.Serializable;
+import kotlin.jvm.internal.Intrinsics;
+
+public final class Pair
+implements Serializable {
+    public final Object a;
+    public final Object b;
+
+    public Pair(Object object, Object object2) {
+        this.a = object;
+        this.b = object2;
+    }
+
+    public final boolean equals(Object object) {
+        boolean bl2 = true;
+        if (this == object) {
+            return bl2;
+        }
+        boolean bl3 = object instanceof Pair;
+        if (!bl3) {
+            return false;
+        }
+        object = (Pair)object;
+        Object object2 = this.a;
+        Object object3 = ((Pair)object).a;
+        bl3 = Intrinsics.areEqual(object2, object3);
+        if (!bl3) {
+            return false;
+        }
+        object3 = this.b;
+        object = ((Pair)object).b;
+        boolean bl4 = Intrinsics.areEqual(object3, object);
+        if (!bl4) {
+            return false;
+        }
+        return bl2;
+    }
+
+    public final int hashCode() {
+        int n3;
+        int n4 = 0;
+        Object object = this.a;
+        if (object == null) {
+            n3 = 0;
+            object = null;
+        } else {
+            n3 = object.hashCode();
+        }
+        n3 *= 31;
+        Object object2 = this.b;
+        if (object2 != null) {
+            n4 = object2.hashCode();
+        }
+        return n3 + n4;
+    }
+
+    public final String toString() {
+        StringBuilder stringBuilder = new StringBuilder("(");
+        Object object = this.a;
+        stringBuilder.append(object);
+        stringBuilder.append(", ");
+        object = this.b;
+        return gl1_0.a(stringBuilder, object, ')');
+    }
+}
+

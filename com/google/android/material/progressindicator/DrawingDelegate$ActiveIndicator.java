@@ -1,0 +1,12 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package com.google.android.material.progressindicator;
+
+public class DrawingDelegate$ActiveIndicator {
+    int color;
+    float endFraction;
+    int gapSize;
+    float startFraction;
+}
+

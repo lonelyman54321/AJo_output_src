@@ -1,0 +1,76 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  android.app.Application
+ *  android.content.Context
+ */
+import android.app.Application;
+import android.content.Context;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.lifecycle.E$b;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.internal.Intrinsics;
+
+/*
+ * Renamed from L5
+ */
+public final class l5_0
+implements Function0 {
+    public final /* synthetic */ int a;
+    public final /* synthetic */ Fragment b;
+
+    public /* synthetic */ l5_0(Fragment fragment, int n3) {
+        this.a = n3;
+        this.b = fragment;
+    }
+
+    public final Object invoke() {
+        int n3 = this.a;
+        switch (n3) {
+            default: {
+                oy1_1 oy1_12 = (oy1_1)this.b;
+                Intrinsics.checkNotNullParameter(oy1_12, "this$0");
+                oy1_12 = oy1_12.requireActivity().getApplication();
+                Intrinsics.checkNotNullExpressionValue(oy1_12, "getApplication(...)");
+                ky1_0 ky1_02 = new ky1_0((Application)oy1_12);
+                return ky1_02;
+            }
+            case 1: {
+                Object object = (bn_2)this.b;
+                Intrinsics.checkNotNullParameter(object, "this$0");
+                Object object2 = ((Fragment)object).requireActivity();
+                Intrinsics.checkNotNullExpressionValue(object2, "requireActivity(...)");
+                object = "owner";
+                Intrinsics.checkNotNullParameter(object2, (String)object);
+                Object object3 = object2.getViewModelStore();
+                object = cX1.a((FragmentActivity)object2, (String)object, (FragmentActivity)object2, (String)object);
+                String string2 = "factory";
+                object2 = dX1.a((FragmentActivity)object2, (rd3_0)object3, "store", (E$b)object, string2);
+                String string3 = "defaultCreationExtras";
+                object2 = li_2.a((Wd0)object2, string3, (rd3_0)object3, (E$b)object, (Wd0)object2);
+                object = bp_1.class;
+                object3 = "modelClass";
+                object = do_0.a(object, (String)object3, object, (String)object3, (String)object3);
+                Intrinsics.checkNotNullParameter(object, "<this>");
+                object3 = object.getQualifiedName();
+                if (object3 != null) {
+                    object3 = "androidx.lifecycle.ViewModelProvider.DefaultKey:".concat((String)object3);
+                    return (bp_1)((pD3)object2).a((yn1_2)object, (String)object3);
+                }
+                object = "Local and anonymous classes can not be ViewModels".toString();
+                object2 = new IllegalArgumentException((String)object);
+                throw object2;
+            }
+            case 0: 
+        }
+        q5_0 q5_02 = (q5_0)this.b;
+        Intrinsics.checkNotNullParameter(q5_02, "this$0");
+        q5_02 = q5_02.requireActivity().getApplicationContext();
+        Intrinsics.checkNotNullExpressionValue(q5_02, "getApplicationContext(...)");
+        jo_2 jo_22 = new jo_2((Context)q5_02);
+        return jo_22;
+    }
+}
+

@@ -1,0 +1,43 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+import androidx.lifecycle.LiveData;
+import com.ril.ajio.data.repo.ApiErrorRepo;
+import kotlin.Unit;
+
+/*
+ * Renamed from Sf2$a
+ */
+public final class sf2$a_0
+extends qg3_2
+implements gx0_2 {
+    public /* synthetic */ Throwable a;
+    public final /* synthetic */ tf2_2 b;
+
+    public sf2$a_0(tf2_2 tf2_22, f80_0 f80_02) {
+        this.b = tf2_22;
+        super(3, f80_02);
+    }
+
+    public final Object invoke(Object object, Object object2, Object object3) {
+        object = (fs0_2)object;
+        object2 = (Throwable)object2;
+        object3 = (f80_0)object3;
+        tf2_2 tf2_22 = this.b;
+        object = new sf2$a_0(tf2_22, (f80_0)object3);
+        ((sf2$a_0)object).a = object2;
+        object2 = Unit.a;
+        return ((sf2$a_0)object).invokeSuspend(object2);
+    }
+
+    public final Object invokeSuspend(Object object) {
+        Object object2 = j90_0.COROUTINE_SUSPENDED;
+        vl2_2.b(object);
+        Throwable throwable = this.a;
+        object = this.b.h;
+        object2 = ApiErrorRepo.handleApiException$default(ApiErrorRepo.INSTANCE, throwable, "getOrderList", false, null, null, 28, null);
+        ((LiveData)object).k(object2);
+        return Unit.a;
+    }
+}
+

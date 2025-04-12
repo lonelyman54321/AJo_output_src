@@ -1,0 +1,20 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+import java.util.concurrent.ThreadFactory;
+
+public final class az3
+implements ThreadFactory {
+    public final /* synthetic */ String a;
+
+    public /* synthetic */ az3() {
+        this.a = "ExoPlayer:AudioTrackReleaseThread";
+    }
+
+    public final Thread newThread(Runnable runnable2) {
+        String string2 = this.a;
+        Thread thread2 = new Thread(runnable2, string2);
+        return thread2;
+    }
+}
+

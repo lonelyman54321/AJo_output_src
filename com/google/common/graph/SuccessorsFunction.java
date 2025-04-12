@@ -1,0 +1,9 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package com.google.common.graph;
+
+public interface SuccessorsFunction {
+    public Iterable successors(Object var1);
+}
+

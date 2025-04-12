@@ -1,0 +1,6 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+public interface D3$f {
+}
+

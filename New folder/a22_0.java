@@ -1,0 +1,61 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+import com.ril.ajio.pdprefresh.fragments.NewProductDetailsFragment;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.internal.Intrinsics;
+
+/*
+ * Renamed from a22
+ */
+public final class a22_0
+implements Function0 {
+    public final /* synthetic */ int a;
+    public final /* synthetic */ Object b;
+
+    public /* synthetic */ a22_0(Object object, int n3) {
+        this.a = n3;
+        this.b = object;
+    }
+
+    public final Object invoke() {
+        int n3 = this.a;
+        switch (n3) {
+            default: {
+                Function0 function0 = (Function0)this.b;
+                Intrinsics.checkNotNullParameter(function0, "$onClick");
+                function0.invoke();
+                return Unit.a;
+            }
+            case 0: 
+        }
+        Object object = (NewProductDetailsFragment)this.b;
+        Intrinsics.checkNotNullParameter(object, "this$0");
+        Object object2 = new d22_0((NewProductDetailsFragment)object);
+        Object object3 = new pw_2((Function0)object2);
+        object2 = "owner";
+        Intrinsics.checkNotNullParameter(object, (String)object2);
+        String string2 = "factory";
+        Intrinsics.checkNotNullParameter(object3, string2);
+        rd3_0 rd3_02 = object.getViewModelStore();
+        Intrinsics.checkNotNullParameter(object, (String)object2);
+        object2 = object.getDefaultViewModelCreationExtras();
+        Intrinsics.checkNotNullParameter(rd3_02, "store");
+        Intrinsics.checkNotNullParameter(object3, string2);
+        Intrinsics.checkNotNullParameter(object2, "defaultCreationExtras");
+        object = ZC2.class;
+        string2 = "modelClass";
+        object2 = on_2.c(rd3_02, (pw_2)object3, (Wd0)object2, (Class)object, string2);
+        object = ef0_0.a((Class)object, string2, string2, "<this>");
+        object3 = object.getQualifiedName();
+        if (object3 != null) {
+            object3 = "androidx.lifecycle.ViewModelProvider.DefaultKey:".concat((String)object3);
+            return (ZC2)((pD3)object2).a((yn1_2)object, (String)object3);
+        }
+        object = "Local and anonymous classes can not be ViewModels".toString();
+        object2 = new IllegalArgumentException((String)object);
+        throw object2;
+    }
+}
+

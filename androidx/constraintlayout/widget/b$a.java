@@ -1,0 +1,261 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package androidx.constraintlayout.widget;
+
+import androidx.constraintlayout.widget.ConstraintLayout$LayoutParams;
+import androidx.constraintlayout.widget.Constraints$LayoutParams;
+import androidx.constraintlayout.widget.b$a$a;
+import androidx.constraintlayout.widget.b$b;
+import androidx.constraintlayout.widget.b$c;
+import androidx.constraintlayout.widget.b$d;
+import androidx.constraintlayout.widget.b$e;
+import java.util.HashMap;
+
+public final class b$a {
+    public int a;
+    public String b;
+    public final b$d c;
+    public final b$c d;
+    public final b$b e;
+    public final b$e f;
+    public HashMap g;
+    public b$a$a h;
+
+    public b$a() {
+        int n3;
+        float f5;
+        float f6;
+        HashMap hashMap;
+        ((b$d)((Object)hashMap)).a = false;
+        ((b$d)((Object)hashMap)).b = 0;
+        ((b$d)((Object)hashMap)).c = 0;
+        ((b$d)((Object)hashMap)).d = f6 = 1.0f;
+        ((b$d)((Object)hashMap)).e = f5 = 0.0f / 0.0f;
+        this.c = hashMap;
+        hashMap = new HashMap();
+        ((b$c)((Object)hashMap)).a = false;
+        ((b$c)((Object)hashMap)).b = n3 = -1;
+        ((b$c)((Object)hashMap)).c = 0;
+        ((b$c)((Object)hashMap)).d = null;
+        ((b$c)((Object)hashMap)).e = n3;
+        ((b$c)((Object)hashMap)).f = 0;
+        ((b$c)((Object)hashMap)).g = f5;
+        ((b$c)((Object)hashMap)).h = f5;
+        ((b$c)((Object)hashMap)).i = f5;
+        ((b$c)((Object)hashMap)).j = n3;
+        ((b$c)((Object)hashMap)).k = null;
+        ((b$c)((Object)hashMap)).l = -3;
+        ((b$c)((Object)hashMap)).m = n3;
+        this.d = hashMap;
+        hashMap = new HashMap();
+        this.e = hashMap;
+        hashMap = new HashMap();
+        ((b$e)((Object)hashMap)).a = false;
+        ((b$e)((Object)hashMap)).b = 0.0f;
+        ((b$e)((Object)hashMap)).c = 0.0f;
+        ((b$e)((Object)hashMap)).d = 0.0f;
+        ((b$e)((Object)hashMap)).e = f6;
+        ((b$e)((Object)hashMap)).f = f6;
+        ((b$e)((Object)hashMap)).g = f5;
+        ((b$e)((Object)hashMap)).h = f5;
+        ((b$e)((Object)hashMap)).i = n3;
+        ((b$e)((Object)hashMap)).j = 0.0f;
+        ((b$e)((Object)hashMap)).k = 0.0f;
+        ((b$e)((Object)hashMap)).l = 0.0f;
+        ((b$e)((Object)hashMap)).m = false;
+        ((b$e)((Object)hashMap)).n = 0.0f;
+        this.f = hashMap;
+        this.g = hashMap = new HashMap();
+    }
+
+    public final void a(ConstraintLayout$LayoutParams constraintLayout$LayoutParams) {
+        String string2;
+        float f5;
+        int n3;
+        b$b b$b = this.e;
+        constraintLayout$LayoutParams.e = n3 = b$b.i;
+        constraintLayout$LayoutParams.f = n3 = b$b.j;
+        constraintLayout$LayoutParams.g = n3 = b$b.k;
+        constraintLayout$LayoutParams.h = n3 = b$b.l;
+        constraintLayout$LayoutParams.i = n3 = b$b.m;
+        constraintLayout$LayoutParams.j = n3 = b$b.n;
+        constraintLayout$LayoutParams.k = n3 = b$b.o;
+        constraintLayout$LayoutParams.l = n3 = b$b.p;
+        constraintLayout$LayoutParams.m = n3 = b$b.q;
+        constraintLayout$LayoutParams.n = n3 = b$b.r;
+        constraintLayout$LayoutParams.o = n3 = b$b.s;
+        constraintLayout$LayoutParams.s = n3 = b$b.t;
+        constraintLayout$LayoutParams.t = n3 = b$b.u;
+        constraintLayout$LayoutParams.u = n3 = b$b.v;
+        constraintLayout$LayoutParams.v = n3 = b$b.w;
+        constraintLayout$LayoutParams.leftMargin = n3 = b$b.G;
+        constraintLayout$LayoutParams.rightMargin = n3 = b$b.H;
+        constraintLayout$LayoutParams.topMargin = n3 = b$b.I;
+        constraintLayout$LayoutParams.bottomMargin = n3 = b$b.J;
+        constraintLayout$LayoutParams.A = n3 = b$b.S;
+        constraintLayout$LayoutParams.B = n3 = b$b.R;
+        constraintLayout$LayoutParams.x = n3 = b$b.O;
+        constraintLayout$LayoutParams.z = n3 = b$b.Q;
+        constraintLayout$LayoutParams.E = f5 = b$b.x;
+        constraintLayout$LayoutParams.F = f5 = b$b.y;
+        constraintLayout$LayoutParams.p = n3 = b$b.A;
+        constraintLayout$LayoutParams.q = n3 = b$b.B;
+        constraintLayout$LayoutParams.r = f5 = b$b.C;
+        constraintLayout$LayoutParams.G = string2 = b$b.z;
+        constraintLayout$LayoutParams.T = n3 = b$b.D;
+        constraintLayout$LayoutParams.U = n3 = b$b.E;
+        constraintLayout$LayoutParams.I = f5 = b$b.U;
+        constraintLayout$LayoutParams.H = f5 = b$b.V;
+        constraintLayout$LayoutParams.K = n3 = b$b.X;
+        constraintLayout$LayoutParams.J = n3 = b$b.W;
+        n3 = (int)(b$b.m0 ? 1 : 0);
+        constraintLayout$LayoutParams.W = n3;
+        n3 = (int)(b$b.n0 ? 1 : 0);
+        constraintLayout$LayoutParams.X = n3;
+        constraintLayout$LayoutParams.L = n3 = b$b.Y;
+        constraintLayout$LayoutParams.M = n3 = b$b.Z;
+        constraintLayout$LayoutParams.P = n3 = b$b.a0;
+        constraintLayout$LayoutParams.Q = n3 = b$b.b0;
+        constraintLayout$LayoutParams.N = n3 = b$b.c0;
+        constraintLayout$LayoutParams.O = n3 = b$b.d0;
+        constraintLayout$LayoutParams.R = f5 = b$b.e0;
+        constraintLayout$LayoutParams.S = f5 = b$b.f0;
+        constraintLayout$LayoutParams.V = n3 = b$b.F;
+        constraintLayout$LayoutParams.c = f5 = b$b.g;
+        constraintLayout$LayoutParams.a = n3 = b$b.e;
+        constraintLayout$LayoutParams.b = n3 = b$b.f;
+        constraintLayout$LayoutParams.width = n3 = b$b.c;
+        constraintLayout$LayoutParams.height = n3 = b$b.d;
+        string2 = b$b.l0;
+        if (string2 != null) {
+            constraintLayout$LayoutParams.Y = string2;
+        }
+        constraintLayout$LayoutParams.Z = n3 = b$b.p0;
+        n3 = b$b.L;
+        constraintLayout$LayoutParams.setMarginStart(n3);
+        int n4 = b$b.K;
+        constraintLayout$LayoutParams.setMarginEnd(n4);
+        constraintLayout$LayoutParams.a();
+    }
+
+    public final b$a b() {
+        int n3;
+        int n4;
+        float f5;
+        int n7;
+        b$a b$a = new b$a();
+        Object object = b$a.e;
+        Object object2 = this.e;
+        ((b$b)object).a((b$b)object2);
+        object = b$a.d;
+        object2 = this.d;
+        ((b$c)object).a((b$c)object2);
+        object = b$a.c;
+        object.getClass();
+        object2 = this.c;
+        ((b$d)object).a = n7 = ((b$d)object2).a;
+        ((b$d)object).b = n7 = ((b$d)object2).b;
+        ((b$d)object).d = f5 = ((b$d)object2).d;
+        ((b$d)object).e = f5 = ((b$d)object2).e;
+        ((b$d)object).c = n4 = ((b$d)object2).c;
+        object = b$a.f;
+        object2 = this.f;
+        ((b$e)object).a((b$e)object2);
+        b$a.a = n3 = this.a;
+        b$a.h = object = this.h;
+        return b$a;
+    }
+
+    public final void c(int n3, ConstraintLayout$LayoutParams constraintLayout$LayoutParams) {
+        String string2;
+        float f5;
+        this.a = n3;
+        n3 = constraintLayout$LayoutParams.e;
+        b$b b$b = this.e;
+        b$b.i = n3;
+        b$b.j = n3 = constraintLayout$LayoutParams.f;
+        b$b.k = n3 = constraintLayout$LayoutParams.g;
+        b$b.l = n3 = constraintLayout$LayoutParams.h;
+        b$b.m = n3 = constraintLayout$LayoutParams.i;
+        b$b.n = n3 = constraintLayout$LayoutParams.j;
+        b$b.o = n3 = constraintLayout$LayoutParams.k;
+        b$b.p = n3 = constraintLayout$LayoutParams.l;
+        b$b.q = n3 = constraintLayout$LayoutParams.m;
+        b$b.r = n3 = constraintLayout$LayoutParams.n;
+        b$b.s = n3 = constraintLayout$LayoutParams.o;
+        b$b.t = n3 = constraintLayout$LayoutParams.s;
+        b$b.u = n3 = constraintLayout$LayoutParams.t;
+        b$b.v = n3 = constraintLayout$LayoutParams.u;
+        b$b.w = n3 = constraintLayout$LayoutParams.v;
+        b$b.x = f5 = constraintLayout$LayoutParams.E;
+        b$b.y = f5 = constraintLayout$LayoutParams.F;
+        b$b.z = string2 = constraintLayout$LayoutParams.G;
+        b$b.A = n3 = constraintLayout$LayoutParams.p;
+        b$b.B = n3 = constraintLayout$LayoutParams.q;
+        b$b.C = f5 = constraintLayout$LayoutParams.r;
+        b$b.D = n3 = constraintLayout$LayoutParams.T;
+        b$b.E = n3 = constraintLayout$LayoutParams.U;
+        b$b.F = n3 = constraintLayout$LayoutParams.V;
+        b$b.g = f5 = constraintLayout$LayoutParams.c;
+        b$b.e = n3 = constraintLayout$LayoutParams.a;
+        b$b.f = n3 = constraintLayout$LayoutParams.b;
+        b$b.c = n3 = constraintLayout$LayoutParams.width;
+        b$b.d = n3 = constraintLayout$LayoutParams.height;
+        b$b.G = n3 = constraintLayout$LayoutParams.leftMargin;
+        b$b.H = n3 = constraintLayout$LayoutParams.rightMargin;
+        b$b.I = n3 = constraintLayout$LayoutParams.topMargin;
+        b$b.J = n3 = constraintLayout$LayoutParams.bottomMargin;
+        b$b.M = n3 = constraintLayout$LayoutParams.D;
+        b$b.U = f5 = constraintLayout$LayoutParams.I;
+        b$b.V = f5 = constraintLayout$LayoutParams.H;
+        b$b.X = n3 = constraintLayout$LayoutParams.K;
+        b$b.W = n3 = constraintLayout$LayoutParams.J;
+        n3 = (int)(constraintLayout$LayoutParams.W ? 1 : 0);
+        b$b.m0 = n3;
+        n3 = (int)(constraintLayout$LayoutParams.X ? 1 : 0);
+        b$b.n0 = n3;
+        b$b.Y = n3 = constraintLayout$LayoutParams.L;
+        b$b.Z = n3 = constraintLayout$LayoutParams.M;
+        b$b.a0 = n3 = constraintLayout$LayoutParams.P;
+        b$b.b0 = n3 = constraintLayout$LayoutParams.Q;
+        b$b.c0 = n3 = constraintLayout$LayoutParams.N;
+        b$b.d0 = n3 = constraintLayout$LayoutParams.O;
+        b$b.e0 = f5 = constraintLayout$LayoutParams.R;
+        b$b.f0 = f5 = constraintLayout$LayoutParams.S;
+        b$b.l0 = string2 = constraintLayout$LayoutParams.Y;
+        b$b.O = n3 = constraintLayout$LayoutParams.x;
+        b$b.Q = n3 = constraintLayout$LayoutParams.z;
+        b$b.N = n3 = constraintLayout$LayoutParams.w;
+        b$b.P = n3 = constraintLayout$LayoutParams.y;
+        b$b.S = n3 = constraintLayout$LayoutParams.A;
+        b$b.R = n3 = constraintLayout$LayoutParams.B;
+        b$b.T = n3 = constraintLayout$LayoutParams.C;
+        b$b.p0 = n3 = constraintLayout$LayoutParams.Z;
+        b$b.K = n3 = constraintLayout$LayoutParams.getMarginEnd();
+        b$b.L = n3 = constraintLayout$LayoutParams.getMarginStart();
+    }
+
+    public final void d(int n3, Constraints$LayoutParams constraints$LayoutParams) {
+        float f5;
+        this.c(n3, constraints$LayoutParams);
+        b$d b$d = this.c;
+        b$d.d = f5 = constraints$LayoutParams.r0;
+        float f6 = constraints$LayoutParams.u0;
+        b$e b$e = this.f;
+        b$e.b = f6;
+        b$e.c = f6 = constraints$LayoutParams.v0;
+        b$e.d = f6 = constraints$LayoutParams.w0;
+        b$e.e = f6 = constraints$LayoutParams.x0;
+        b$e.f = f6 = constraints$LayoutParams.y0;
+        b$e.g = f6 = constraints$LayoutParams.z0;
+        b$e.h = f6 = constraints$LayoutParams.A0;
+        b$e.j = f6 = constraints$LayoutParams.B0;
+        b$e.k = f6 = constraints$LayoutParams.C0;
+        b$e.l = f6 = constraints$LayoutParams.D0;
+        b$e.n = f6 = constraints$LayoutParams.t0;
+        n3 = (int)(constraints$LayoutParams.s0 ? 1 : 0);
+        b$e.m = n3;
+    }
+}
+
